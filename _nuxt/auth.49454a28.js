@@ -1,0 +1,1 @@
+import{W as t,k as u,O as n,S as s}from"./entry.8ffd76b9.js";const a=u(),g=t((o,r)=>{const e=n();if(!e.value)return a.error("You must be logged in to access this page"),s("/signIn");if(e.value&&o.name==="signIn")return a.success("You are now logged in"),s("/shop")});export{g as default};
